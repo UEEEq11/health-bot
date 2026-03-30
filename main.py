@@ -7,7 +7,7 @@ from datetime import datetime
 # Берем токен из настроек Render
 TOKEN = os.getenv("BOT_TOKEN")
 # Твой ID, чтобы бот слал сообщения именно тебе
-MY_CHAT_ID = 693240058 
+MY_CHAT_ID = 1130349282 
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
